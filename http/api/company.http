@@ -1,0 +1,9 @@
+POST http://localhost/api/company
+Content-Type: application/json
+Accept: application/json
+
+{
+    "name": "ТОВ Українська енергетична біржа",
+    "edrpou": "37027819",
+    "address": " 01001, Україна, м. Київ, вул. Хрещатик, 44"
+}
