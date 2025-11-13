@@ -20,6 +20,7 @@ class CompanyResource extends JsonResource
         return [
             'company_id' => $this->id,
             'status' => $this->resourceStatus,
+            'version' => $this->getLastVersionId(),
         ];
     }
 }
